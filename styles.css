@@ -18,11 +18,11 @@ body{
     right: 0;
     left: 0;
     margin: auto;
-    transition: all ease 0.2s;
+    /* transition: all ease 0.2s; */
 }
 
 .cat-head:hover{
-        scale: 1.2;
+        /* scale: 1.2; */
 }
 
 .cat-left-ear{
@@ -154,3 +154,56 @@ body{
     transform: rotate(165deg);
 }
 
+.cat-whiskers-left div{
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+
+.cat-whisker-left-top{
+    position: absolute;
+    top: 120px;
+    left: 52px;
+    transform: rotate(10deg);
+}
+
+.cat-whisker-left-middle{
+    position: absolute;
+    top: 127px;
+    left: 52px;
+    transform: rotate(3deg);
+}
+
+.cat-whisker-left-bottom{
+    position: absolute;
+    top: 134px;
+    left: 52px;
+    transform: rotate(-3deg);
+}
+
+.cat-whiskers-right div{
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+
+.cat-whisker-right-top{
+    position: absolute;
+    top: 120px;
+    left: 109px;
+    transform: rotate(-10deg);
+}
+
+.cat-whisker-right-middle{
+    position: absolute;
+    top: 127px;
+    left: 109px;
+    transform: rotate(-3deg);
+}
+
+.cat-whisker-right-bottom{
+    position: absolute;
+    top: 134px;
+    left: 109px;
+    transform: rotate(3deg);
+}
