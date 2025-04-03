@@ -18,11 +18,11 @@ body{
     right: 0;
     left: 0;
     margin: auto;
-    /* transition: all ease 0.2s; */
+    transition: all ease 0.2s;
 }
 
 .cat-head:hover{
-        /* scale: 1.2; */
+        scale: 1.2;
 }
 
 .cat-left-ear{
